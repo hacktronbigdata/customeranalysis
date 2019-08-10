@@ -18,11 +18,6 @@ def datacleansing(record,num_of_columns):
         value="False"
     return value
 
-def f(x):
-    d = {}
-    for i in range(len(x.split("|"))):
-        d[str(i)] = x[i]
-    return d
 
 if __name__ == "__main__":
     spark = SparkSession \
